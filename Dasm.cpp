@@ -1,15 +1,13 @@
 /*
  Sami Badra: masc0673
+ Genaro Orodio, masc0633
+ Daniel Silva, masc0624
  
  CS 530, Spring 2015
  Assignment #2, disassembler
  FILE: Dasm.cpp
  
  Copyright (c) 2015 Sami Badra. All rights reserved.
- 
- DISCLAIMER: Any unauthorized use, including but not limited to, copying or
- redistributing any chunk of the source code (or an entire file) will result in
- punishment by law. I, Sami Badra, own all rights to the files and their contents.
  */
 
 #include "Dasm.h"
