@@ -26,12 +26,12 @@ I have provided some sample files neccessary to run the program in this reposito
 
 ##Input
 **.obj file:** contains object code (i.e. machine binary/hex).  
-**.sym file:** contains both a symbol table (A table descriing each symbol in the program: symbol name, memory location, and address flag for each), and a literal table (table describing each literal: literal name, length, and address).
+**.sym file:** contains a SYMTAB and a LITTAB. SYMTAB is a symbol table which describes each symbol in the program (symbol name, memory location, and address flag). LITTAB is a literal table which describes each literal (literal name, length, and address).
 
 ##Output
 **.sic file:** contains the original assembly source code which the .obj and .sym files were generated from.  
 
-#Instructions
+##Instructions
 1. TRANSFER: copy all files to the same local directory. (Do not copy 'sample.sic' as this is supposed to be the output that is generated from the program)
 2. COMPILE: Simply type 'make' and enter to compile the program using Makefile
 3. RUN: Type 'dasm sample.obj' (or any other .obj file if you have your own.)
