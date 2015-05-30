@@ -25,11 +25,11 @@ To run your program, the user shall provide the filename on the command line whe
 I have provided some sample files neccessary to run the program in this repository.
 
 ##Input
-.obj file: contains object code (i.e. machine binary/hex).
-.sym file: contains both a symbol table (A table descriing each symbol in the program: symbol name, memory location, and address flag for each), and a literal table (table describing each literal: literal name, length, and address).
+**.obj file:** contains object code (i.e. machine binary/hex).
+**.sym file:** contains both a symbol table (A table descriing each symbol in the program: symbol name, memory location, and address flag for each), and a literal table (table describing each literal: literal name, length, and address).
 
 ##Output
-.sic file: contains the original assembly source code which the .obj and .sym files were generated from.
+**.sic file:** contains the original assembly source code which the .obj and .sym files were generated from.
 
 #Instructions
 1. TRANSFER: copy all files to the same local directory. (Do not copy 'sample.sic' as this is supposed to be the output that is generated from the program)
