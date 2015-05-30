@@ -25,8 +25,10 @@ To run your program, the user shall provide the filename on the command line whe
 I have provided some sample files neccessary to run the program in this repository.
 
 ##Input
-**.obj file:** contains object code (i.e. machine binary/hex).  
-**.sym file:** contains a SYMTAB and a LITTAB. SYMTAB is a symbol table which describes each symbol in the program (symbol name, memory location, and address flag). LITTAB is a literal table which describes each literal (literal name, length, and address).
+- **.obj file:** contains object code (i.e. machine binary/hex).  
+- **.sym file:** contains a SYMTAB and a LITTAB.
+    - SYMTAB is a symbol table which describes each symbol within program (symbol name, address, and address flag).
+    - LITTAB is a literal table which describes each literal (literal name, length, and address).
 
 ##Output
 **.sic file:** contains the original assembly source code which the .obj and .sym files were generated from.  
